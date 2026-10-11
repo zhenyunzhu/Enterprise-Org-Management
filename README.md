@@ -7,7 +7,6 @@
 [![MyBatis](https://img.shields.io/badge/MyBatis-4.0.1-red.svg)](https://mybatis.org/)
 [![MySQL](https://img.shields.io/badge/MySQL-8.0-blue.svg)](https://www.mysql.com/)
 [![Docker](https://img.shields.io/badge/Docker-Compose-2496ED.svg)](https://www.docker.com/)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 ---
 
@@ -372,10 +371,6 @@ MySQL 首次启动初始化需要 30~60 秒，`docker-compose.yml` 已通过 `he
 
 ---
 
-## 十二、许可证
+## 十二、声明
 
-本项目基于 [MIT License](LICENSE) 开源发布，你可以自由地使用、修改、分发，甚至用于商业用途，只需在副本中保留原始版权声明。
-
-```
-Copyright (c) 2026 zhenyunzhu
-```
+本项目为教学实践项目，仅供学习与技术交流使用。
