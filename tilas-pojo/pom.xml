@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.itheima</groupId>
+        <artifactId>tilas-parent</artifactId>
+        <version>1.0.0</version>
+    </parent>
+
+    <artifactId>tilas-pojo</artifactId>
+    <packaging>jar</packaging>
+
+    <name>tilas-pojo</name>
+    <description>实体类、DTO、VO 等数据模型层</description>
+
+    <dependencies>
+        <!-- @ConfigurationProperties / @Component / @DateTimeFormat 等注解支持 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <optional>true</optional>
+        </dependency>
+    </dependencies>
+
+</project>
